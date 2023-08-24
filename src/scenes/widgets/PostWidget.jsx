@@ -128,10 +128,10 @@ const PostWidget = ({
       <Typography variant="h2" color={main} sx={{ mt: "1rem",textDecoration:"underline" }}>
         {description}
       </Typography>
-      <Box sx={{ display: "flex", marginTop:"5px"}}>
+      <Box sx={{  marginTop:"5px"}}>
         {picturePath && (
           <img
-            width="30%"
+            width="100%"
             // height="40%"
             alt="post"
             style={{
